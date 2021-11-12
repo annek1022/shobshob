@@ -1,0 +1,152 @@
+
+
+.mainhome::before{
+	content: "logo";
+	
+	position: absolute;
+	width: 200px;
+	right: 200px;
+	top: 60px;
+	height: 200px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+
+  background-image: url(../imahe/zdsmc.png);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.mainhometwo::before{
+	content: "logo";
+	
+	position: absolute;
+	width: 200px;
+	right: 1500px;
+	top: 60px;
+	height: 200px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+
+  background-image: url(../imahe/zdsmc_logo.png);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+
+#lblzdsmc {
+  font-size: 25px;
+  color: brown;
+}
+
+.dush {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 380px) {
+
+  body {
+    background-color: antiquewhite;
+  }
+
+    .mainhome::before{
+    content: "logo";
+    
+    position: absolute;
+    width: 70px;
+    right: 15px;
+    top: 60px;
+    height: 70px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+
+    background-image: url(../imahe/zdsmc.png);
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+  }
+
+  .mainhometwo::before{
+    content: "logo";
+    
+    position: absolute;
+    width: 70px;
+    right: 247px;
+    top: 60px;
+    height: 70px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+  
+    background-image: url(../imahe/zdsmc_logo.png);
+    background-repeat: no-repeat;
+    background-size: 70px 70px;
+  }
+
+  .dush {
+    font-size: 8px;
+  }
+
+  #lblzdsmc {
+    font-size: 12px;
+    color: brown;
+  }
+
+  #lblprovince {
+    font-size: 10px;
+    color: brown;
+  }
+
+  #lblrepublic {
+    font-size: 10px;
+  }
+
+  #lblmole {
+    font-size: 10px;
+  }
+
+  #lbltestresult {
+    font-size: 8px;
+  }
+
+  #lblinterpretation {
+    font-size: 8px;
+  }
+
+  #lbllab {
+    font-weight: bold;
+    font-size: 9px;
+  }
+  
+  #lblgov {
+    font-size: 9px;
+  }
+
+  #lbltel {
+    font-size: 10px;
+  }
+
+  #lblemail {
+    font-size: 10px;
+  }
+
+  #data1 {
+    font-size: 9px;
+  }
+ 
+  #datafield {
+    font-size: 9px;
+  }
+
+  #bdata {
+    font-size: 9px;
+  }
+
+  #ull {
+    font-size: 9px;
+  }
+  #end {
+    font-size: 9px;
+  }
+}
